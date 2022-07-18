@@ -54,7 +54,7 @@ def Estimate_Price(numberOfRooms,StudentsPerClass,nextToRiver=False,highConfidan
     if numberOfRooms<1 or StudentsPerClass<1:
         print('Impossi a khoya impossi')
         raise ValueError("params entered must be realistic 'be real'")
-    #Cpi adjusting for inflation
+    #Cpi adjusting for inflation for 2022
     cpi=21.19
     #estimation price model 
     def get_log_estimate(nr_rooms,students_per_class,
